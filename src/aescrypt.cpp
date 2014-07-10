@@ -46,7 +46,7 @@ struct cryptor::impl {
 		:klen(klen)
 	{
 		if ( std::strlen(key)*8 != klen )
-			throw std::runtime_error("length of key is not equal to "+std::to_string(klen)+" bits");
+			throw std::runtime_error("length of key is not equal to "+std::to_string(klen/8)+" chars");
 
 		RAND_bytes(iv_enc, AES_BLOCK_SIZE);
 		std::memcpy(iv_dec, iv_enc, AES_BLOCK_SIZE);
