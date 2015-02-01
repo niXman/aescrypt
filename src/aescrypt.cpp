@@ -1,5 +1,5 @@
 
-// Copyright (c) 2014 niXman (i dotty nixman doggy gmail dotty com)
+// Copyright (c) 2014-2015 niXman (i dotty nixman doggy gmail dotty com)
 // All rights reserved.
 //
 // This file is part of aescrypt(https://github.com/niXman/aescrypt) project.
